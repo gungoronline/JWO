@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Şerif Güngör'ün blog sayfası. Teknoloji, yazılım geliştirme, mobil uygulamalar ve daha fazlası hakkında bilgiler içeren makaleler." />
+    <title>Şerif Güngör - Blog</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+        .header {
+            background-color: #17a2b8;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        .row{
+            margin-bottom: 10px;
+        }
+        .card {
+            margin-bottom: 10px;
+        }
+        .card {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .card-body {
+            flex-grow: 1;
+        }
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1rem;
+        }
+        .search-input {
+            border-radius: 50px;
+            width: 50%;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1><?jwo echo "Merhaba, Ben Şerif Güngör" ?></h1>
+    </div>
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Arama yap...">
+    </div>
+    
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="search-results mt-3">
+                    <!-- Arama sonuçları burada listelenecek -->
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1587840178393-079769787b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YW5kcm9pZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60" class="card-img-top" alt="Android Makale 1">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#android1">Android Uygulama Geliştirme İpuçları</a></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1605465155444-5f084e5ec10a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGlvc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60" class="card-img-top" alt="iOS Makale 1">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#ios1">iOS Uygulama Test Etme ve Hata Ayıklama</a></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1587840178393-079769787b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YW5kcm9pZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60" class="card-img-top" alt="Android Makale 2">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#android2">Mobil Uygulamaların Geleceği: Android Perspektifi</a></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1605465155444-5f084e5ec10a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGlvc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60" class="card-img-top" alt="iOS Makale 2">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#ios2">Swift Programlama Dili ile iOS Uygulama Geliştirme</a></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Diğer Satırlar -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1587840178393-079769787b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YW5kcm9pZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60" class="card-img-top" alt="Android Makale 3">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#android3">Material Design: Android Uygulama Tasarımı</a></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1605465155444-5f084e5ec10a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGlvc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60" class="card-img-top" alt="iOS Makale 3">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#ios3">Xcode İle Hızlı ve Etkili iOS Uygulama Geliştirme</a></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Diğer Satırlar -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1587840178393-079769787b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YW5kcm9pZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60" class="card-img-top" alt="Android Makale 4">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#android4">Android Uygulamalarında Veri Yönetimi ve SQLite</a></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1605465155444-5f084e5ec10a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGlvc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60" class="card-img-top" alt="iOS Makale 4">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#ios4">UIKit Kullanarak Modern iOS Kullanıcı Arayüzleri</a></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Diğer Satırlar -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1587840178393-079769787b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YW5kcm9pZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60" class="card-img-top" alt="Android Makale 5">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#android5">Mobil Uygulamalarda Güvenlik: Android İpuçları</a></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1605465155444-5f084e5ec10a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGlvc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60" class="card-img-top" alt="iOS Makale 5">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#ios5">Swift ile Fonksiyonel ve Temiz iOS Kodlama</a></h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Diğer Satırlar -->
+            </div>
+            <div class="col-md-3">
+                <div class="categories">
+                    <h3>Blog Kategorileri</h3>
+                    <ul>
+                        <li><a href="#">Teknoloji</a></li>
+                        <li><a href="#">Yazılım Geliştirme</a></li>
+                        <li><a href="#">Mobil Uygulamalar</a></li>
+                        <li><a href="#">Web Tasarım</a></li>
+                        <li><a href="#">Dijital Pazarlama</a></li>
+                    </ul>
+                </div>
+                <div class="row">
+                     <h3>Son Blog Okuma Önerileri</h3>
+                     <div id="randomContent">
+
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="pagination" id="pagination">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Önceki</a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Sonraki</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <p>&copy; 2023 Şerif Güngör. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        const cardTitles = document.querySelectorAll(".card-title a");
+        const originalTitles = Array.from(cardTitles).map(title => title.textContent);
+
+        function getRandomTitle() {
+            const randomIndex = Math.floor(Math.random() * originalTitles.length);
+            return originalTitles[randomIndex];
+        }
+
+        function updateRandomContent(title) {
+            const randomContentDiv = document.getElementById("randomContent");
+            randomContentDiv.innerHTML = title;
+        }
+
+        updateRandomContent(getRandomTitle());
+
+        setInterval(() => {
+            updateRandomContent(getRandomTitle());
+        }, 5000);
+
+    </script>
+
+
+<script>
+    const searchInput = document.querySelector(".search-input");
+    const searchResultsDiv = document.querySelector(".search-results");
+
+    searchInput.addEventListener("input", function() {
+        const searchTerm = this.value;
+
+        if (searchTerm.length >= 3) {
+            searchResultsDiv.innerHTML = "Arama yapılıyor...";
+
+            $.ajax({
+                method: "GET",
+                url: "search.php", // Değiştirmeniz gereken URL
+                data: { q: searchTerm },
+                success: function(data) {
+                    searchResultsDiv.innerHTML = data;
+                },
+                error: function() {
+                    searchResultsDiv.innerHTML = "Arama sırasında bir hata oluştu.";
+                }
+            });
+        } else {
+            searchResultsDiv.innerHTML = "";
+        }
+    });
+</script>
+</body>
+</html>

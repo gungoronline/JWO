@@ -1,0 +1,12 @@
+# .jwoconf
+
+# Server configuration
+server.name = JWO
+server.httpPort = 80
+# server.httpsPort = 8443
+server.isSecure = false
+server.logErrors = true
+
+default.page = index.html
+
+root.directory = public
